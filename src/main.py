@@ -11,7 +11,6 @@ async def main():
     async with Actor:
         # Structure of input is defined in input_schema.json
         actor_input = await Actor.get_input() or {}
-        url = actor_input.get('url')
         location = actor_input.get('location')
 
         # Get location
