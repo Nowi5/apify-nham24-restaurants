@@ -1,8 +1,8 @@
 {
 	"actorSpecification": 1,
-	"name": "my-first-actor",
-	"title": "Scrape single page in Python",
-	"description": "Scrape data from single page with provided URL.",
+	"name": "nham24 Resturant Actor",
+	"title": "Scrape nham24 resturants in Python",
+	"description": "Scrape data from nham24 with provided location.",
 	"version": "0.0",
 	"meta": {
 		"templateId": "python-start"
