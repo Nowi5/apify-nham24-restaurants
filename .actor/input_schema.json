@@ -3,12 +3,12 @@
     "type": "object",
     "schemaVersion": 1,
     "properties": {
-        "url": {
-            "title": "URL of the page",
+        "location": {
+            "title": "Location for the search",
             "type": "string",
-            "description": "The URL of website you want to get the data from.",
+            "description": "The location of resturants you want to get the data from.",
             "editor": "textfield",
-            "prefill": "https://www.apify.com/"
+            "prefill": "Phnom Penh, Cambodia"
         }
     },
     "required": ["url"]
