@@ -11,5 +11,5 @@
             "prefill": "Phnom Penh, Cambodia"
         }
     },
-    "required": ["url"]
+    "required": ["location"]
 }
