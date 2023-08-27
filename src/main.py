@@ -42,6 +42,8 @@ async def main():
                 data_list = json_response['data']
                 Actor.log.info(f'Spotted {len(data_list)} data entries.')
                 for data in data_list:
+                    data['location'] = location
+                    data['page'] = page
                     await Actor.push_data(data)
 
                 next =  json_response['links']['next']
